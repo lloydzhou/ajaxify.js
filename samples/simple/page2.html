@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>Page 1</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  </head>
+  <body>
+		<h1>This content is not changed (page2)</h1>
+		<div id="main" class="ajaxify">
+			<a href="page1.html">Go to page 1</a>
+		</div>
+		<p><a href="http://www.google.com">Go to Google</a></p>
+		<script type="text/javascript" src="../../lib/ajaxify.js"></script>
+		<script type="text/javascript">
+			/* <![CDATA[ */
+			if (window.addEventListener) {
+				window.addEventListener('load', function () {
+					new Ajaxify()
+				}, false)
+			}
+			/* ]]> */
+		</script>
+  </body>
+</html>
